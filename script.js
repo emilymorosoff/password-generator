@@ -3,6 +3,10 @@ let numericValues = "0123456789".split("");
 let upperCaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 let lowerCaseLetters = "abcdefghijklmnopqrstuvwxyz".split("");
 let specialCharacters = "!@#$%^&*()_+~`|}{[]:;?><,./-=".split("");
+let possibleCharacters = [];
+function generatePassword() {
+  let numberOfCharacters = prompt("How many characters would you like in your password? Choose between 8-128 characters.")
+}
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
