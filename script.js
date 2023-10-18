@@ -6,6 +6,13 @@ let specialCharacters = "!@#$%^&*()_+~`|}{[]:;?><,./-=".split("");
 let possibleCharacters = [];
 function generatePassword() {
   let numberOfCharacters = prompt("How many characters would you like in your password? Choose between 8-128 characters.")
+  numberOfCharacters = parseInt (numberOfCharacters)
+  if (isNaN(numberOfCharacters) || numberOfCharacters<8 || numberOfCharacters>128) {
+    return "Please choose valid number of characters."
+  }
+  else {
+    return "Your password will be " + numberOfCharacters + " characters long."
+  }
 }
 
 // Get references to the #generate element
