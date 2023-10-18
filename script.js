@@ -11,7 +11,7 @@ function generatePassword() {
     return "Please choose valid number of characters."
   }
   else {
-    return "Your password will be " + numberOfCharacters + " characters long."
+    alert ("Your password will be " + numberOfCharacters + " characters long.")
   }
 }
 
