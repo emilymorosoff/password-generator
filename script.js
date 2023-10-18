@@ -1,5 +1,8 @@
 // Assignment code here
 let numericValues = "0123456789".split(""); 
+let upperCaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+let lowerCaseLetters = "abcdefghijklmnopqrstuvwxyz".split("");
+let specialCharacters = "!@#$%^&*()_+~`|}{[]:;?><,./-=".split("");
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
