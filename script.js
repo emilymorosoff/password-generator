@@ -33,6 +33,9 @@ if (includeUpperCaseLetters) {
   possibleCharacters = possibleCharacters.concat (upperCaseLetters)
 }
 
+if (includeNumericValues) {
+  possibleCharacters = possibleCharacters.concat(numericValues)
+}
 }
 
 // Get references to the #generate element
