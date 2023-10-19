@@ -15,6 +15,7 @@ function generatePassword() {
   }
   let includeLowerCaseLetters = confirm ("Would you like to include lowercase letters in your password?")
   let includeUpperCaseLetters = confirm ("Would you like to include uppercase letters in your password?")
+  let numericValues = confirm ("Would you like to include numbers in your password?")
 }
 
 // Get references to the #generate element
