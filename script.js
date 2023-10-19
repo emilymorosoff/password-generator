@@ -40,6 +40,14 @@ if (includeNumericValues) {
 if (includeSpecialCharacters) {
   possibleCharacters = possibleCharacters.concat (specialCharacters)
 }
+
+let finalPassword = ""
+
+for(let i = 0; i<numberOfCharacters; i++) {
+  let range = Math.ceil(Math.random()*possibleCharacters.length) - 1
+  finalPassword += possibleCharacters[range]
+}
+return finalPassword
 }
 
 // Get references to the #generate element
