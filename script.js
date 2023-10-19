@@ -28,7 +28,10 @@ function generatePassword() {
 if (includeLowerCaseLetters) {
 possibleCharacters = possibleCharacters.concat (lowerCaseLetters)
 }
-console.log(possibleCharacters)
+
+if (includeUpperCaseLetters) {
+  possibleCharacters = possibleCharacters.concat (upperCaseLetters)
+}
 
 }
 
